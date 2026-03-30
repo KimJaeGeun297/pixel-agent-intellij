@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"GIT_ASKPASS=true GIT_TERMINAL_PROMPT=0 git -c credential.helper='!f() { echo \\\"username=Kimjaegeun297\\\"; echo \\\"password=github_pat_11AY5CN5Q0FhMVglTxnNLw_NBSOtyboyaglMAX1HkYh0gIQFyUcgMLE6...",
+  "error": "Exit code 128\nremote: Permission to KimJaeGeun297/pixel-agent-intellij.git denied to KimJaeGeun297.\nfatal: unable to access 'https://github.com/KimJaeGeun297/pixel-agent-intellij.git/': The requested URL returned error: 403",
+  "timestamp": "2026-03-30T05:13:10.601Z",
+  "retry_count": 3
+}

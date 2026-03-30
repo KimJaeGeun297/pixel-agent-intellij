@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.pixelagents.intellij</id>
+    <id>com.pixelagents.plugin</id>
     <name>Pixel Agents</name>
     <vendor>Pixel Agents</vendor>
     <description>Pixel art office visualization for AI coding agents. Watch Claude Code agents work as animated characters in a pixel art office.</description>
