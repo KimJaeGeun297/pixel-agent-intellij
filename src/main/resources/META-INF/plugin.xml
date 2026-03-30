@@ -1,0 +1,27 @@
+<idea-plugin>
+    <id>com.pixelagents.intellij</id>
+    <name>Pixel Agents</name>
+    <vendor>Pixel Agents</vendor>
+    <description>Pixel art office visualization for AI coding agents. Watch Claude Code agents work as animated characters in a pixel art office.</description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Pixel Agents"
+                    anchor="bottom"
+                    factoryClass="com.pixelagents.intellij.PixelAgentsToolWindowFactory"
+                    icon="/icons/pixel-agents.svg"/>
+        <postStartupActivity implementation="com.pixelagents.intellij.PixelAgentsStartupActivity"/>
+    </extensions>
+
+    <actions>
+        <action id="PixelAgents.Toggle"
+                class="com.pixelagents.intellij.TogglePixelAgentsAction"
+                text="Pixel Agents"
+                description="Toggle Pixel Agents office view"
+                icon="/icons/pixel-agents.svg">
+            <add-to-group group-id="ToolbarRunGroup" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="alt shift P"/>
+        </action>
+    </actions>
+</idea-plugin>
